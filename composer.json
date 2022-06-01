@@ -1,0 +1,19 @@
+{
+    "name": "chabane/projet",
+    "autoload": {
+        "psr-4": {
+            "Mvc\\": "src/",
+            "Config\\": "config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "API",
+            "email": "api-racing_car@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0",
+        "bramus/router": "~1.6"
+    }
+}
